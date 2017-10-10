@@ -5,6 +5,9 @@ services:
 
 language: python
 
+notifications:
+  slack: mulesoft-ashley:xzXWo3JXM8rL6gtRj4XhRPRX
+
 script:
   - python -m pytest -v
   
