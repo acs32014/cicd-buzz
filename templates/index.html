@@ -1,0 +1,55 @@
+<html>
+  <head>
+	<title>CI/CD Buzz Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans" 
+		rel="stylesheet">
+<style>
+body {
+	padding: 0;
+	background: url("/static/background.jpg")
+	no-repeat;
+	background-size: cover;
+	background-color: #b6b6ba;
+	background-blend-mode: multiply;
+}
+h1{
+	color: #00A0DF;
+	font-family: 'Work+Sans';
+	font-size: 52px;
+}
+
+h2{
+	color: #414042;
+	font-family: 'Work+Sans';
+	font-size: 36px;
+}
+
+.buzz{
+	color: #000;
+	font-family: 'Work+Sans';
+	font-size: 48px;
+}
+
+div.buzz{
+   max-width: 50%; 
+   margin: 0 auto; 
+   text-align: center; 
+   position: relative; 
+   top: 15%;
+}
+
+</style>
+  </head>
+
+<body>
+<h1 align="center"> MuleSoft Associate PM Exercise</h1>
+<h2 align="center"> Ashley Simons </h2>
+<p style="text-align: center;">
+<img src="/static/CICD_pipeline.png" alt="cicd-pipeline" style="width:425px;height:180px;">
+</p>
+<div class="buzz">
+      <p class="buzz">{{ buzz }}</p>
+    </div>
+</body>
+</html>
