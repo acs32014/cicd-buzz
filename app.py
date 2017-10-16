@@ -1,6 +1,6 @@
 import os
 import signal
-from flask import Flask
+from flask import Flask, render_template
 from buzz import generator
 
 app = Flask(__name__)
